@@ -1,0 +1,203 @@
+SIMAN Run Controller.
+
+0.12654154 Hours>
+----------------------------------------------------------------------
+17114:GGTAEC
+A runtime error was detected at time 17.136908 at the following block:
+
+ *  176 677$            GROUP,Batch Size,Permanent:
+                            Batch Size,Last,Batch Order:
+                            NEXT(678$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+17.136908 Hours>
+                                      ARENA Simulation Results
+                                s2282844@ed.ac.uk - License: STUDENT
+
+                                  Summary for Replication 1 of 120
+
+Project: Unnamed Project                                             Run execution date : 4/14/2023
+Analyst: Clarin D Souza                                              Model revision date: 4/14/2023
+
+Replication ended at time      : 17.136908 Hours (Tuesday, January 03, 2023, 18:16:26)
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .29106     (Insuf)    .00000     1.7878        252    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000        252    
+Customer.WaitTime                           .32813     (Insuf)    .00000     3.5092        252    
+Customer.TranTime                           .00000     (Insuf)    .00000     .00000        252    
+Customer.OtherTime                          .00000     (Insuf)    .00000     .00000        252    
+Customer.TotalTime                          .41848     (Insuf)    .00000     2.3521        252    
+Dummy.VATime                                .00000     (Insuf)    .00000     .00000          2    
+Dummy.NVATime                               .00000     (Insuf)    .00000     .00000          2    
+Dummy.WaitTime                              .00000     (Insuf)    .00000     .00000          2    
+Dummy.TranTime                              .00000     (Insuf)    .00000     .00000          2    
+Dummy.OtherTime                             .00000     (Insuf)    .00000     .00000          2    
+Dummy.TotalTime                             .00000     (Insuf)    .00000     .00000          2    
+Batch Order.VATime                              --         --         --         --          0
+Batch Order.NVATime                             --         --         --         --          0
+Batch Order.WaitTime                            --         --         --         --          0
+Batch Order.TranTime                            --         --         --         --          0
+Batch Order.OtherTime                           --         --         --         --          0
+Batch Order.TotalTime                           --         --         --         --          0
+Till Order.Queue.WaitingTime                .00706     (Insuf)    .00000     .07340        125    
+Express Checkout Order.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000        139    
+Fruit Preparation.Queue.WaitingTime         .01538     (Insuf)    .00000     .09250         99    
+Two Other Item Preparation.Queue.WaitingTi  .02101     (Insuf)    .00000     .11176         43    
+Outsourced Cake Preparation.Queue.WaitingT  .01742     (Insuf)    .00000     .11389         53    
+2 Seater Outdoor Table Cleaning.Queue.Wait      --         --         --         --          0
+Coffee Preparation.Queue.WaitingTime        .02130     (Insuf)    .00000     .11418         71    
+4 Seater Soujourn.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000         10    
+10 Seater Table Cleaning for One Spot.Queu      --         --         --         --          0
+Soft Drink Preparation.Queue.WaitingTime    .01557     (Insuf)    .00000     .11539        104    
+Batch Customer Order.Queue.WaitingTime      .00909     (Corr)     .00000     .11720        427    
+Batch Customers.Queue.WaitingTime           .11012     .03701     .00000     1.5035        453    
+One Other Item Preparation.Queue.WaitingTi  .02335     (Insuf)    .00000     .11000         85    
+Coffee Preparation usng Machine.Queue.Wait  .00000     (Insuf)    .00000     .00000        112    
+10 Seater Soujourn.Queue.WaitingTime            --         --         --         --          0
+Tea Preparation.Queue.WaitingTime           .01327     (Insuf)    .00000     .09710        144    
+4 Seater Table Cleaning.Queue.WaitingTime       --         --         --         --          0
+2 Seater Outdoor Soujourn.Queue.WaitingTim  .00000     (Insuf)    .00000     .00000         32    
+Homemade Cake Preparation.Queue.WaitingTim  .01827     (Insuf)    .00000     .10206        109    
+2 Seater Table Cleaning.Queue.WaitingTime       --         --         --         --          0
+Match Order to Customer.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000        258    
+Match Order to Customer.Queue2.WaitingTime  .07950     (Insuf)    .02537     .22157        258    
+2 Seater Soujourn.Queue.WaitingTime         .00000     (Insuf)    .00000     .00000         75    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                62.103     (Corr)     .00000     126.00     126.00    
+Dummy.WIP                                   .00000     (Insuf)    .00000     1.0000     .00000    
+Batch Order.WIP                             9.6584     (Corr)     .00000     19.000     17.000    
+2 Seater Table.NumberBusy                   2.0394     (Insuf)    .00000     3.0000     3.0000    
+2 Seater Table.NumberScheduled              3.0000     (Insuf)    3.0000     3.0000     3.0000    
+2 Seater Table.Utilization                  .67981     (Insuf)    .00000     1.0000     1.0000    
+Automatic Espresso Machine.NumberBusy       .15631     (Insuf)    .00000     1.0000     1.0000    
+Automatic Espresso Machine.NumberScheduled  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Automatic Espresso Machine.Utilization      .15631     (Insuf)    .00000     1.0000     1.0000    
+10 Seater Table.NumberBusy                  .00000     (Insuf)    .00000     .00000     .00000    
+10 Seater Table.NumberScheduled             .00000     (Insuf)    .00000     .00000     .00000    
+10 Seater Table.Utilization                 .00000     (Insuf)    .00000     .00000     .00000    
+Express Checkout Counter.NumberBusy         .16938     (Insuf)    .00000     1.0000     .00000    
+Express Checkout Counter.NumberScheduled    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Express Checkout Counter.Utilization        .16938     (Insuf)    .00000     1.0000     .00000    
+2 Seater Outdoor Table.NumberBusy           .87347     (Insuf)    .00000     2.0000     1.0000    
+2 Seater Outdoor Table.NumberScheduled      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+2 Seater Outdoor Table.Utilization          .43674     (Insuf)    .00000     1.0000     .50000    
+David.NumberBusy                            .18942     (Insuf)    .00000     1.0000     1.0000    
+David.NumberScheduled                       .53225     (Insuf)    .00000     1.0000     1.0000    
+David.Utilization                           .18942     (Insuf)    .00000     1.0000     1.0000    
+Owners.NumberBusy                           .76741     .13445     .00000     2.0000     2.0000    
+Owners.NumberScheduled                      2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Owners.Utilization                          .38371     .06722     .00000     1.0000     1.0000    
+4 Seater Table.NumberBusy                   .22775     (Insuf)    .00000     1.0000     .00000    
+4 Seater Table.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+4 Seater Table.Utilization                  .22775     (Insuf)    .00000     1.0000     .00000    
+Part Time Staff.NumberBusy                  .04220     (Insuf)    .00000     1.0000     .00000    
+Part Time Staff.NumberScheduled             .11671     (Insuf)    .00000     1.0000     .00000    
+Part Time Staff.Utilization                 .04220     (Insuf)    .00000     1.0000     .00000    
+Till Order.Queue.NumberInQueue              .05149     (Insuf)    .00000     5.0000     .00000    
+Express Checkout Order.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Fruit Preparation.Queue.NumberInQueue       .08886     (Insuf)    .00000     3.0000     .00000    
+Two Other Item Preparation.Queue.NumberInQ  .05271     (Insuf)    .00000     2.0000     .00000    
+Outsourced Cake Preparation.Queue.NumberIn  .05387     (Insuf)    .00000     3.0000     .00000    
+2 Seater Outdoor Table Cleaning.Queue.Numb  .00000     (Insuf)    .00000     .00000     .00000    
+Coffee Preparation.Queue.NumberInQueue      .08823     (Insuf)    .00000     5.0000     .00000    
+4 Seater Soujourn.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+10 Seater Table Cleaning for One Spot.Queu  .00000     (Insuf)    .00000     .00000     .00000    
+Soft Drink Preparation.Queue.NumberInQueue  .09447     (Insuf)    .00000     4.0000     .00000    
+Batch Customer Order.Queue.NumberInQueue    .22655     (Insuf)    .00000     7.0000     1.0000    
+Batch Customers.Queue.NumberInQueue         2.9638     (Insuf)    .00000     7.0000     3.0000    
+One Other Item Preparation.Queue.NumberInQ  .11580     (Insuf)    .00000     3.0000     .00000    
+Coffee Preparation usng Machine.Queue.Numb  .00000     (Insuf)    .00000     .00000     .00000    
+10 Seater Soujourn.Queue.NumberInQueue      15.538     (Insuf)    .00000     40.000     40.000    
+Tea Preparation.Queue.NumberInQueue         .11188     (Insuf)    .00000     4.0000     2.0000    
+4 Seater Table Cleaning.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+2 Seater Outdoor Soujourn.Queue.NumberInQu  .00000     (Insuf)    .00000     .00000     .00000    
+Homemade Cake Preparation.Queue.NumberInQu  .11622     (Insuf)    .00000     4.0000     .00000    
+2 Seater Table Cleaning.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Match Order to Customer.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Match Order to Customer.Queue2.NumberInQue  1.2004     .26892     .00000     8.0000     5.0000    
+2 Seater Soujourn.Queue.NumberInQueue       .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Sit In Order                                    220  Infinite
+2 Seater Table Take Out Conversion Count          0  Infinite
+Customers Served Count                          382  Infinite
+2 Seater Table Wait Count                         0  Infinite
+Homemade Cake Count                             109  Infinite
+Incoming Order Count                            433  Infinite
+4 Seater Table Take Out Conversion Count          0  Infinite
+Coffee Count                                    181  Infinite
+Take Away Order                                 207  Infinite
+Soft Drink Count                                104  Infinite
+Outsourced Cake Count                            53  Infinite
+Fruit Count                                      99  Infinite
+4 Seater Table Wait Count                         0  Infinite
+Other Item Count                                171  Infinite
+10 Seater Table Wait Count                        0  Infinite
+Lost Customers Count                             17  Infinite
+10 Seater Table Take Out Conversion Count         0  Infinite
+Outgoing Order Count                            428  Infinite
+Tea Count                                       143  Infinite
+2 Seater Outdoor Table Wait Count                 0  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           1449.0    
+Customer.NumberOut                          1323.0    
+Dummy.NumberIn                              2.0000    
+Dummy.NumberOut                             2.0000    
+Batch Order.NumberIn                        258.00    
+Batch Order.NumberOut                       241.00    
+2 Seater Table.NumberSeized                 75.000    
+2 Seater Table.ScheduledUtilization         .67981    
+Automatic Espresso Machine.NumberSeized     112.00    
+Automatic Espresso Machine.ScheduledUtiliz  .15631    
+10 Seater Table.NumberSeized                .00000    
+10 Seater Table.ScheduledUtilization        .00000    
+Express Checkout Counter.NumberSeized       139.00    
+Express Checkout Counter.ScheduledUtilizat  .16938    
+2 Seater Outdoor Table.NumberSeized         32.000    
+2 Seater Outdoor Table.ScheduledUtilizatio  .43674    
+David.NumberSeized                          149.00    
+David.ScheduledUtilization                  .35588    
+Owners.NumberSeized                         648.00    
+Owners.ScheduledUtilization                 .38371    
+4 Seater Table.NumberSeized                 10.000    
+4 Seater Table.ScheduledUtilization         .22775    
+Part Time Staff.NumberSeized                36.000    
+Part Time Staff.ScheduledUtilization        .36162    
+System.NumberOut                            254.00    
+

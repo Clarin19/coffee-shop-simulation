@@ -1,0 +1,109 @@
+[RESOURCES]
+2 Seater Table
+Automatic Espresso Machine
+10 Seater Table
+Express Checkout Counter
+2 Seater Outdoor Table
+David
+Owners
+4 Seater Table
+Part Time Staff
+[VARIABLES]
+2 Seater Table Check Outdoor Availability.NumberOut True
+Order Delivery.NumberIn
+Process Order for Waiting Customers.NumberOut Dup
+Till Order.NumberOut
+10 Seater Availability.NumberOut True
+2 Seater Outdoor Table Cleaning.NumberIn
+Kiosk
+Outdoor Customer Separation.NumberOut False
+Homemade Cake Price
+Outdoor Customer Separation.NumberOut True
+Espresso Machine
+Two Other Item Preparation.NumberIn
+Two Other Item Preparation.NumberOut
+4 Seater Table Check Outdoor Availability.NumberOut True
+Espresso Machine?.NumberOut False
+Espresso Machine?.NumberOut True
+4 Seater Table Check Outdoor Availability.NumberOut False
+Express CheckOut?.NumberOut False
+Other Item Price
+Till Queue Size
+Soft Drink Preparation.NumberIn
+Soft Drink Preparation.NumberOut
+Order Collection Queue Size
+10 Seater Table Cleaning for One Spot.NumberOut
+Sales
+Check if Take Away Order.NumberOut True
+10 Seater Table Cleaning for One Spot.NumberIn
+Wait for 2 Seater Outoor Table Availability.NumberOut False
+Process Order for Waiting Customers.NumberOut Orig
+Check if Take Away Order.NumberOut False
+Coffee Price
+Wait for 2 Seater Outoor Table Availability.NumberOut True
+10 Seater Soujourn.NumberIn
+2 Seater Table Cleaning.NumberIn
+Fruit Price
+Wait for 2 Seater Table Availability.NumberOut True
+Wait for 4 Seater Table Availability.NumberOut True
+10 Seater Soujourn.NumberOut
+Wait for 2 Seater Table Availability.NumberOut False
+Wait for 4 Seater Table Availability.NumberOut False
+Outsourced Cake Preparation.NumberOut
+Outsourced Cake Price
+Incoming Customers
+Till Order.NumberIn
+Customer Departure.NumberOut
+Tea Price
+2 Seater Outdoor Table Check 10 Seater Availability.NumberOut False
+One Other Item Preparation.NumberIn
+One Other Item Preparation.NumberOut
+2 Seater Outdoor Table Check 10 Seater Availability.NumberOut True
+Coffee Preparation usng Machine.NumberOut
+Express Checkout Order.NumberIn
+Express Checkout Order.NumberOut
+Coffee Preparation usng Machine.NumberIn
+4 Seater Table Cleaning.NumberIn
+Join Till Queue.NumberOut True
+2 Seater Outdoor Table Availability.NumberOut False
+Express CheckOut?.NumberOut True
+Coffee Preparation.NumberOut
+Outdoor Rental
+Outsourced Cake Preparation.NumberIn
+Batch Customers.NumberOut
+2 Seater Outdoor Table Availability.NumberOut True
+Join Till Queue.NumberOut False
+2 Seater Outdoor Table Cleaning.NumberOut
+Customer Arrival.NumberOut
+Homemade Cake Preparation.NumberOut
+Homemade Cake Preparation.NumberIn
+Dispose Read Write Process.NumberOut
+Separate Outdoor Customers.NumberOut Orig
+2 Seater Soujourn.NumberIn
+2 Seater Soujourn.NumberOut
+2 Seater Table Cleaning.NumberOut
+Tea Preparation.NumberIn
+2 Seater Outdoor Soujourn.NumberOut
+2 Seater Outdoor Soujourn.NumberIn
+Create Read Write Process.NumberOut
+2 Seater Table Availability.NumberOut True
+4 Seater Table Availability.NumberOut False
+Batch Customer Order.NumberOut
+4 Seater Table Availability.NumberOut True
+Separate Outdoor Customers.NumberOut Dup
+Dispose Original Batch for 10 Seater.NumberOut
+2 Seater Table Availability.NumberOut False
+Wait for 10 Seater Table Availability.NumberOut True
+Wait for 10 Seater Table Availability.NumberOut False
+2 Seater Table Check Outdoor Availability.NumberOut False
+4 Seater Soujourn.NumberOut
+4 Seater Soujourn.NumberIn
+Express Counter
+Soft Drink Price
+Fruit Preparation.NumberOut
+Fruit Preparation.NumberIn
+Tea Preparation.NumberOut
+Order Delivery.NumberOut
+Coffee Preparation.NumberIn
+4 Seater Table Cleaning.NumberOut
+10 Seater Availability.NumberOut False
